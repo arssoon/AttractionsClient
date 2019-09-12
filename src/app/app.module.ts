@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { SocialLoginModule, AuthServiceConfig } from 'angularx-social-login';
 import { FacebookLoginProvider } from 'angularx-social-login';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { AsdfsdafComponent } from './asdfsdaf/asdfsdaf.component';
 
 const facebookoauthclientid = '797209834027503';
 const config = new AuthServiceConfig([
@@ -32,7 +33,8 @@ const config = new AuthServiceConfig([
     OfferComponent,
     ContactComponent,
     LoginComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    AsdfsdafComponent
   ],
   imports: [
     BrowserModule,
