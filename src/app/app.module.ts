@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { SocialLoginModule, AuthServiceConfig } from 'angularx-social-login';
 import { FacebookLoginProvider } from 'angularx-social-login';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const facebookoauthclientid = '797209834027503';
 const config = new AuthServiceConfig([
@@ -30,7 +31,8 @@ const config = new AuthServiceConfig([
     OverviewAttractionsComponent,
     OfferComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
